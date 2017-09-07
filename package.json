@@ -1,0 +1,25 @@
+{
+    "name": "version-date-bump",
+    "version": "1.0.1709070735",
+    "description": "Bump package.json version to current date.",
+    "main": "main.js",
+    "bin": {
+        "version-date-bump": "./main.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rontran/version-datebump.git"
+    },
+    "author": "Ron Tran",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rontran/version-datebump/issues"
+    },
+    "homepage": "https://github.com/rontran/version-datebump#readme",
+    "dependencies": {
+        "moment": "^2.18.1"
+    }
+}
